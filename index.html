@@ -1,1 +1,92 @@
-Hello MotherPoopers
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kelvin Lightner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="kelvinlightner.jpg">
+    <h1>Kelvin Lightner</h1>
+    <ul>
+      <li><a href="https://www.facebook.com/kelvin.lightner">About Me</a></li>
+      <li><a href="https://www.linkedin.com/in/kelvin-lightner-7641b18a?trk=nav_responsive_tab_profile_pic">Professional Experience</a></li>
+      <li><a href="https://www.instagram.com/kelvin_lightner/?hl=en">Interests</a></li>
+    </ul>
+  </header>
+<div class="main">
+<article>
+    <h2>Favorite Life Quote</h2>
+    <p>"Courage is not simply one of the virtues but the form of every virtue at the testing point."</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Favorite Book Passage</h2>
+    <p>Ships at a distance have every mans wish on board. For some they come in with the tide. For others they sail forever on the horizon, never out of sight, never landing until the Watcher turns his eyes away in resignation, his dreams mocked to death by Time. That is the life of men.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Favorite Poem Lines</h2>
+    <p>The caged bird sings
+with fearful trill
+of the things unknown
+but longed for still
+and his tune is heard
+on the distant hill 
+for the caged bird
+sings of freedom</p>
+    <button>Like</button>
+  </article>
+  </div>
+  <div id="footer">
+    Trademarked by K.L. Incorporated
+  </div>
+  
+</body>
+</html>
+
+<form name="form" action="https://httpbin.org/post" method="post">
+<fieldset>
+Tell me what you think about my page by filling out the info below!
+</fieldset>
+
+  <fieldset>
+    <div>
+      <label>Name: </label>
+      <input type="text" name="fullname">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+    <div>
+      <label>Address:</label>
+      <input type="address" name="address">
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <label>Nickname:</label>
+      <input type="text" name="adv-name" placeholder="Nickname">
+    </div>
+
+    <div>
+      <label>Favorite Hobby:</label>
+      <select name="hobby">
+        <option value="sports">Sports</option>
+        <option value="reading">Reading</option>
+        <option value="games">Games</option>
+      </select>
+    </div>
+
+    <div>    
+      <label>Birthday:</label>
+      <input type="date" name="date">
+    </div>
+  </fieldset>
+  
+  <button type="submit">Save Information</button>
+</form>
