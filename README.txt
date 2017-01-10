@@ -1,14 +1,11 @@
-Landed by HTML5 UP
+Photon by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-A dark, slick, modern, responsive, adjective-drenched design built around an extremely
-dynamic landing page (scroll that mofo!). Inspired by Big Picture, another design
-of mine with a similarish feel/flow, only this time I took it waaaaaay further and
-actually made it multipurpose (versus copping out and making it a one pager like I
-did last time ;) Includes multiple pages, a bunch of pre-styled elements, and all
-its Sass sources.
+A simple (gradient-heavy) single pager that revisits a style I messed with on two
+previous designs (Tessellate and Telephasic). Fully responsive, built on Sass,
+and, as usual, loaded with an assortment of pre-styled elements. Have fun! :)
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
@@ -33,5 +30,6 @@ Credits:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		CSS3 Pie (css3pie.com)
+		background-size polyfill (github.com/louisremi)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
